@@ -22,7 +22,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 
 # Define data path and collection name
 DATA_PATH = "./data/books"
-QDRANT_COLLECTION = "db_collection002"
+QDRANT_COLLECTION = "compliance_dB"
 
 # Initialize Qdrant client
 qdrant_client = QdrantClient(url="http://localhost:6333", timeout=80)

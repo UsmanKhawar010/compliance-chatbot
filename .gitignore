@@ -194,5 +194,9 @@ qdrant-rag/
 *.pem
 *.docx
 qdrant_storage1/
+qdrant_storage/
+qdrant_storage3/
+*.png
+*.db
 
 # End of https://www.toptal.com/developers/gitignore/api/python
